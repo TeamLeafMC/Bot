@@ -23,7 +23,7 @@ export class UserCommand extends SharedCommand {
 			},
 			{
 				guildIds: ['1001130887204847738'],
-				idHints: ['']
+				idHints: ['1001152212958969958']
 			}
 		);
 	}
