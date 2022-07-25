@@ -1,4 +1,4 @@
-# Support Bot
+# Leaf MC Discord Bot
 
-A private ticketing bot for Otter Bots, used for support.
+A private discord bot for Leaf MC.
 
