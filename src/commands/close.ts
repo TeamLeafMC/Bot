@@ -12,7 +12,7 @@ export class UserCommand extends SharedCommand {
 	public chatInputRun(interaction: CommandInteraction) {
 		(async () => {
 			await interaction.channel?.delete()
-			webhookSubmit("RED", `Closed a ticket!\n${await this.container.db.get("current_ticket")} ticket's left`)
+			webhookSubmit("RED", `Closed a ticket!\n${await this.container.db.get("current_ticket")} tickets left! (This may be broken, do not rely on this.)`)
 		})();
 	}
 	public override registerApplicationCommands(registry: ApplicationCommandRegistry) {
